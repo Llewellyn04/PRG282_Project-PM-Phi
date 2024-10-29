@@ -54,9 +54,22 @@ namespace PRG282_Project
             }
         }
 
-        private bool ValidateInput()
+         private bool ValidateInput()
         {
-            //remove return true;
+            if (string.IsNullOrWhiteSpace(txtStudentId.Text) || string.IsNullOrWhiteSpace(txtName.Text) ||
+                string.IsNullOrWhiteSpace(txtSurname.Text) || string.IsNullOrWhiteSpace(txtAge.Text) ||
+                cmbCourse.SelectedIndex == -1)
+            {
+                MessageBox.Show("All fields are required.", "Validation Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                return false;
+            }
+
+            if (!int.TryParse(txtAge.Text, out _))
+            {
+                MessageBox.Show("Age must be a valid number.", "Validation Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                return false;
+            }
+
             return true;
         }
 
