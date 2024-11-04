@@ -1,0 +1,74 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "E:\\Desktop E\\prg281 project test\\PRG281_Project\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{1DC8B316-4F6D-4280-ACDD-58E99D025651}|PRG281_Project\\PRG281_Project.csproj|e:\\desktop e\\prg281 project test\\prg281_project\\prg281_project\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{1DC8B316-4F6D-4280-ACDD-58E99D025651}|PRG281_Project\\PRG281_Project.csproj|solutionrelative:prg281_project\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1DC8B316-4F6D-4280-ACDD-58E99D025651}|PRG281_Project\\PRG281_Project.csproj|e:\\desktop e\\prg281 project test\\prg281_project\\prg281_project\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1DC8B316-4F6D-4280-ACDD-58E99D025651}|PRG281_Project\\PRG281_Project.csproj|solutionrelative:prg281_project\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1DC8B316-4F6D-4280-ACDD-58E99D025651}|PRG281_Project\\PRG281_Project.csproj|e:\\desktop e\\prg281 project test\\prg281_project\\prg281_project\\form1.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1DC8B316-4F6D-4280-ACDD-58E99D025651}|PRG281_Project\\PRG281_Project.csproj|solutionrelative:prg281_project\\form1.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 2,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Form1.cs",
+              "DocumentMoniker": "E:\\Desktop E\\prg281 project test\\PRG281_Project\\PRG281_Project\\Form1.cs",
+              "RelativeDocumentMoniker": "PRG281_Project\\Form1.cs",
+              "ToolTip": "E:\\Desktop E\\prg281 project test\\PRG281_Project\\PRG281_Project\\Form1.cs",
+              "RelativeToolTip": "PRG281_Project\\Form1.cs",
+              "ViewState": "AgIAAOYAAAAAAAAAAAD4v/UAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-04T12:47:09.19Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Form1.cs [Design]",
+              "DocumentMoniker": "E:\\Desktop E\\prg281 project test\\PRG281_Project\\PRG281_Project\\Form1.cs",
+              "RelativeDocumentMoniker": "PRG281_Project\\Form1.cs",
+              "ToolTip": "E:\\Desktop E\\prg281 project test\\PRG281_Project\\PRG281_Project\\Form1.cs [Design]",
+              "RelativeToolTip": "PRG281_Project\\Form1.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-04T12:26:27.245Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Form1.Designer.cs",
+              "DocumentMoniker": "E:\\Desktop E\\prg281 project test\\PRG281_Project\\PRG281_Project\\Form1.Designer.cs",
+              "RelativeDocumentMoniker": "PRG281_Project\\Form1.Designer.cs",
+              "ToolTip": "E:\\Desktop E\\prg281 project test\\PRG281_Project\\PRG281_Project\\Form1.Designer.cs",
+              "RelativeToolTip": "PRG281_Project\\Form1.Designer.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-04T12:26:22.516Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

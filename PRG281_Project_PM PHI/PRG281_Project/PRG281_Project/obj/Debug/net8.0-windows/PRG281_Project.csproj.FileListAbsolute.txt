@@ -1,0 +1,34 @@
+E:\Desktop E\prg281 project test\PRG281_Project\PRG281_Project\bin\Debug\net8.0-windows\PRG281_Project.exe
+E:\Desktop E\prg281 project test\PRG281_Project\PRG281_Project\bin\Debug\net8.0-windows\PRG281_Project.deps.json
+E:\Desktop E\prg281 project test\PRG281_Project\PRG281_Project\bin\Debug\net8.0-windows\PRG281_Project.runtimeconfig.json
+E:\Desktop E\prg281 project test\PRG281_Project\PRG281_Project\bin\Debug\net8.0-windows\PRG281_Project.dll
+E:\Desktop E\prg281 project test\PRG281_Project\PRG281_Project\bin\Debug\net8.0-windows\PRG281_Project.pdb
+E:\Desktop E\prg281 project test\PRG281_Project\PRG281_Project\obj\Debug\net8.0-windows\PRG281_Project.Form1.resources
+E:\Desktop E\prg281 project test\PRG281_Project\PRG281_Project\obj\Debug\net8.0-windows\PRG281_Project.csproj.GenerateResource.cache
+E:\Desktop E\prg281 project test\PRG281_Project\PRG281_Project\obj\Debug\net8.0-windows\PRG281_Project.GeneratedMSBuildEditorConfig.editorconfig
+E:\Desktop E\prg281 project test\PRG281_Project\PRG281_Project\obj\Debug\net8.0-windows\PRG281_Project.AssemblyInfoInputs.cache
+E:\Desktop E\prg281 project test\PRG281_Project\PRG281_Project\obj\Debug\net8.0-windows\PRG281_Project.AssemblyInfo.cs
+E:\Desktop E\prg281 project test\PRG281_Project\PRG281_Project\obj\Debug\net8.0-windows\PRG281_Project.csproj.CoreCompileInputs.cache
+E:\Desktop E\prg281 project test\PRG281_Project\PRG281_Project\obj\Debug\net8.0-windows\PRG281_Project.dll
+E:\Desktop E\prg281 project test\PRG281_Project\PRG281_Project\obj\Debug\net8.0-windows\refint\PRG281_Project.dll
+E:\Desktop E\prg281 project test\PRG281_Project\PRG281_Project\obj\Debug\net8.0-windows\PRG281_Project.pdb
+E:\Desktop E\prg281 project test\PRG281_Project\PRG281_Project\obj\Debug\net8.0-windows\PRG281_Project.genruntimeconfig.cache
+E:\Desktop E\prg281 project test\PRG281_Project\PRG281_Project\obj\Debug\net8.0-windows\ref\PRG281_Project.dll
+E:\Desktop E\prg281 project test\PRG281_Project\PRG281_Project\obj\Debug\net8.0-windows\PRG281_Project.Properties.Resources.resources
+E:\Desktop E\PRG281_Project_PM PHI\PRG281_Project\PRG281_Project\bin\Debug\net8.0-windows\PRG281_Project.exe
+E:\Desktop E\PRG281_Project_PM PHI\PRG281_Project\PRG281_Project\bin\Debug\net8.0-windows\PRG281_Project.deps.json
+E:\Desktop E\PRG281_Project_PM PHI\PRG281_Project\PRG281_Project\bin\Debug\net8.0-windows\PRG281_Project.runtimeconfig.json
+E:\Desktop E\PRG281_Project_PM PHI\PRG281_Project\PRG281_Project\bin\Debug\net8.0-windows\PRG281_Project.dll
+E:\Desktop E\PRG281_Project_PM PHI\PRG281_Project\PRG281_Project\bin\Debug\net8.0-windows\PRG281_Project.pdb
+E:\Desktop E\PRG281_Project_PM PHI\PRG281_Project\PRG281_Project\obj\Debug\net8.0-windows\PRG281_Project.Form1.resources
+E:\Desktop E\PRG281_Project_PM PHI\PRG281_Project\PRG281_Project\obj\Debug\net8.0-windows\PRG281_Project.Properties.Resources.resources
+E:\Desktop E\PRG281_Project_PM PHI\PRG281_Project\PRG281_Project\obj\Debug\net8.0-windows\PRG281_Project.csproj.GenerateResource.cache
+E:\Desktop E\PRG281_Project_PM PHI\PRG281_Project\PRG281_Project\obj\Debug\net8.0-windows\PRG281_Project.GeneratedMSBuildEditorConfig.editorconfig
+E:\Desktop E\PRG281_Project_PM PHI\PRG281_Project\PRG281_Project\obj\Debug\net8.0-windows\PRG281_Project.AssemblyInfoInputs.cache
+E:\Desktop E\PRG281_Project_PM PHI\PRG281_Project\PRG281_Project\obj\Debug\net8.0-windows\PRG281_Project.AssemblyInfo.cs
+E:\Desktop E\PRG281_Project_PM PHI\PRG281_Project\PRG281_Project\obj\Debug\net8.0-windows\PRG281_Project.csproj.CoreCompileInputs.cache
+E:\Desktop E\PRG281_Project_PM PHI\PRG281_Project\PRG281_Project\obj\Debug\net8.0-windows\PRG281_Project.dll
+E:\Desktop E\PRG281_Project_PM PHI\PRG281_Project\PRG281_Project\obj\Debug\net8.0-windows\refint\PRG281_Project.dll
+E:\Desktop E\PRG281_Project_PM PHI\PRG281_Project\PRG281_Project\obj\Debug\net8.0-windows\PRG281_Project.pdb
+E:\Desktop E\PRG281_Project_PM PHI\PRG281_Project\PRG281_Project\obj\Debug\net8.0-windows\PRG281_Project.genruntimeconfig.cache
+E:\Desktop E\PRG281_Project_PM PHI\PRG281_Project\PRG281_Project\obj\Debug\net8.0-windows\ref\PRG281_Project.dll

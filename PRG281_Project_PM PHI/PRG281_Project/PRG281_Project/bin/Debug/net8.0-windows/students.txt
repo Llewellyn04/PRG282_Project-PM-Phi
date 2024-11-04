@@ -1,0 +1,5 @@
+1, Alice, Johnson,20,Bachelor of Information Technology
+2, Bob, Smith,22, Bachelor of Information Technology
+3, Charlie, Brown,19, Part-Time Bachelor of Information Technology
+4, Dana, White,21, Diploma in Information Technology
+5, Eve, Williams,23, Diploma for Deaf Students
