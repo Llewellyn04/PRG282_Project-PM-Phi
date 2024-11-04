@@ -1,0 +1,14 @@
+private void BtnDeleteStudent_Click(object sender, EventArgs e)
+        {
+            if (dgvStudents.SelectedRows.Count > 0)
+            {
+                var students = File.ReadAllLines(StudentFilePath).ToList();
+                int selectedIndex = dgvStudents.SelectedRows[0].Index;
+                students.RemoveAt(selectedIndex);
+                File.WriteAllLines(StudentFilePath, students);
+                ClearInputFields();
+                LoadStudents(txtSearch.Text.Trim(), cmbFilterCourse.SelectedItem?.ToString() ?? "All Courses");
+                UpdateSummary();
+                MessageBox.Show("Student deleted successfully.", "Success", MessageBoxButtons.OK, MessageBoxIcon.Information);
+            }
+        }
