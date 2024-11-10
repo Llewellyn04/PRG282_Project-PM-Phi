@@ -148,7 +148,37 @@ namespace PRG281_Project
 
         private void btnApplyFilter_Click(object sender, EventArgs e)
         {
+            try
+            {
+                var allStudents = _studentManager.GetAllStudents();
+                var filteredStudents = allStudents;
 
+            
+                if (!string.IsNullOrWhiteSpace(txtFilter.Text))
+                {
+                    string searchTerm = txtFilter.Text.ToLower();
+                    filteredStudents = filteredStudents.Where(s =>
+                        s.Name.ToLower().Contains(searchTerm) ||
+                        s.Surname.ToLower().Contains(searchTerm) ||
+                        s.StudentId.ToString().Contains(searchTerm)
+
+                    ).ToList();
+                }
+
+            
+                if (cmbFilter.SelectedItem!.ToString() != "All Courses")
+                {
+                    string selectedCourse = cmbFilter.SelectedItem.ToString()!;
+                    filteredStudents = filteredStudents.Where(s => s.Course == selectedCourse).ToList();
+                }
+
+                dgvStudents.DataSource = null;
+                dgvStudents.DataSource = filteredStudents;
+            }
+            catch (Exception ex)
+            {
+                MessageBox.Show($"Error applying filter: {ex.Message}", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
+            }
         }
 
         private void Form1_Load(object sender, EventArgs e)

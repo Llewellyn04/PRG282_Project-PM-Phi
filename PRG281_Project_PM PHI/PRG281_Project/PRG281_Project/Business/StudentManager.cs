@@ -17,14 +17,25 @@ namespace PRG281_Project.Business
             return _dataAccess.GetAllStudents();
         }
 
-        public void AddStudent(Student student)
+        public void validatnameage()
         {
+            if (string.IsNullOrWhiteSpace(student.Name) || string.IsNullOrWhiteSpace(student.Surname))
+                throw new ArgumentException("Name and surname are required");
 
+            if (student.Age < 16 || student.Age > 100)
+                throw new ArgumentException("Age must be between 16 and 100");
+
+            _dataAccess.UpdateStudent(student);
+
+        }
+        public void AddStudent(Student student)// validation
+        {
+            validatnameage();
         }
 
         public void UpdateStudent(Student student)
         {
-
+            validatnameage();
         }
 
         public void DeleteStudent(int studentId)
