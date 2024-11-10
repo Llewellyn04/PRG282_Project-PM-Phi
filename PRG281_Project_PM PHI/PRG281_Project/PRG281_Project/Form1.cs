@@ -87,12 +87,45 @@ namespace PRG281_Project
             _studentManager.GenerateSummary();
         }
 
+        private bool ValidateStudentId(int studentId, bool isUpdate = false)
+        {
+            var existingStudent = _studentManager.GetAllStudents()
+                .FirstOrDefault(s => s.StudentId == studentId);
+
+            if (existingStudent != null && !isUpdate)
+            {
+                MessageBox.Show($"Student ID {studentId} already exists. Please use a different ID.", 
+                    "Validation Error", 
+                    MessageBoxButtons.OK, 
+                    MessageBoxIcon.Warning);
+                return false;
+            }
+            return true;
+        }
+
         private void btnAdd_Click(object sender, EventArgs e)
         {
             try
             {
+                if (string.IsNullOrWhiteSpace(txtStudentId.Text) ||
+                    string.IsNullOrWhiteSpace(txtName.Text) ||
+                    string.IsNullOrWhiteSpace(txtSurname.Text) ||
+                    string.IsNullOrWhiteSpace(txtAge.Text) ||
+                    string.IsNullOrWhiteSpace(cmbCourse.Text))
+                {
+                    MessageBox.Show("Please fill in all fields.", "Warning", MessageBoxButtons.OK, MessageBoxIcon.Warning);
+                    return;
+                }
+
+                int studentId = int.Parse(txtStudentId.Text);
+                
+                if (!ValidateStudentId(studentId))
+                {
+                    return;
+                }
+
                 var student = new Student(
-                    int.Parse(txtStudentId.Text),
+                    studentId,
                     txtName.Text,
                     txtSurname.Text,
                     int.Parse(txtAge.Text),
@@ -102,6 +135,7 @@ namespace PRG281_Project
                 _studentManager.AddStudent(student);
                 LoadStudents();
                 ClearInputs();
+                MessageBox.Show("Student added successfully!", "Success", MessageBoxButtons.OK, MessageBoxIcon.Information);
             }
             catch (Exception ex)
             {
@@ -109,7 +143,7 @@ namespace PRG281_Project
             }
         }
 
-       private void btnUpdate_Click(object sender, EventArgs e)
+        private void btnUpdate_Click(object sender, EventArgs e)
         {
             try
             {
@@ -129,8 +163,15 @@ namespace PRG281_Project
                     return;
                 }
 
+                int studentId = int.Parse(txtStudentId.Text);
+                
+                if (!ValidateStudentId(studentId, true))
+                {
+                    return;
+                }
+
                 var student = new Student(
-                    int.Parse(txtStudentId.Text),
+                    studentId,
                     txtName.Text,
                     txtSurname.Text,
                     int.Parse(txtAge.Text),

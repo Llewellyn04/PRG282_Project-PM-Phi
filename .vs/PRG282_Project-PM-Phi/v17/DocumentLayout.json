@@ -22,12 +22,8 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 3,
+          "SelectedChildIndex": 2,
           "Children": [
-            {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{e5c86464-96be-4d7c-9a8b-abcb3bbf5f92}"
-            },
             {
               "$type": "Document",
               "DocumentIndex": 2,
@@ -38,8 +34,7 @@
               "RelativeToolTip": "PRG281_Project_PM PHI\\PRG281_Project\\PRG281_Project\\Form1.Designer.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-10T20:10:29.441Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-11-10T20:10:29.441Z"
             },
             {
               "$type": "Document",
@@ -51,8 +46,7 @@
               "RelativeToolTip": "PRG281_Project_PM PHI\\PRG281_Project\\PRG281_Project\\Program.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAiAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-10T20:07:08.994Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-11-10T20:07:08.994Z"
             },
             {
               "$type": "Document",
@@ -66,6 +60,10 @@
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-11-10T20:02:12.249Z",
               "EditorCaption": ""
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{e5c86464-96be-4d7c-9a8b-abcb3bbf5f92}"
             }
           ]
         }

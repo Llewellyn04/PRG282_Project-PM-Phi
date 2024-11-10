@@ -2,3 +2,4 @@
 4, Dana, White,21, Diploma in Information Technology
 5, Eve, Williams,23, Diploma for Deaf Students
 1, Alice, Johnson,20,Bachelor of Information Technology
+6, Bob, Smith,22,Bachelor of Information Technology
