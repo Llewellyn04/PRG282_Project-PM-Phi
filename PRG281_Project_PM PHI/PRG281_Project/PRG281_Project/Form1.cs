@@ -145,8 +145,8 @@ namespace PRG281_Project
         {
 
         }
-
-        private void btnApplyFilter_Click(object sender, EventArgs e)
+        //Filter through the Textfile Students
+        private void btnApplyFilter_Click(object sender, EventArgs e) 
         {
             try
             {

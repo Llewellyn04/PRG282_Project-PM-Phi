@@ -16,8 +16,8 @@ namespace PRG281_Project.Business
         {
             return _dataAccess.GetAllStudents();
         }
-
-        public void validatnameage()
+        //validate
+        public void validatnameage() 
         {
             if (string.IsNullOrWhiteSpace(student.Name) || string.IsNullOrWhiteSpace(student.Surname))
                 throw new ArgumentException("Name and surname are required");
@@ -28,11 +28,12 @@ namespace PRG281_Project.Business
             _dataAccess.UpdateStudent(student);
 
         }
-        public void AddStudent(Student student)// validation
+        //Call validation to add student
+        public void AddStudent(Student student)
         {
             validatnameage();
         }
-
+        //Call validation to update student
         public void UpdateStudent(Student student)
         {
             validatnameage();
