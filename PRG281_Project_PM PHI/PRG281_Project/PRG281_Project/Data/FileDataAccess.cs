@@ -43,8 +43,17 @@ namespace PRG281_Project.Data
 
         public void DeleteStudent(int studentId)
         {
+            var students = GetAllStudents();
+            var studentToDelete = students.FirstOrDefault(s => s.StudentId == studentId);
           
+            if (studentToDelete != null)
+            {
+                students.Remove(studentToDelete);
+                SaveAllStudents(students);
+            }
         }
+
+
 
         public void SaveSummary(int totalStudents, double averageAge)
         {
