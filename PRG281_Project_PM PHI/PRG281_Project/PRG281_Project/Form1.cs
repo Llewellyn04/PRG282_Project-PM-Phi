@@ -116,7 +116,34 @@ namespace PRG281_Project
 
         private void btnDelete_Click(object sender, EventArgs e)
         {
+            try
+            {
+                if (dgvStudents.CurrentRow == null)
+                {
+                    MessageBox.Show("Please select a student to delete.", "Warning", MessageBoxButtons.OK, MessageBoxIcon.Warning);
+                    return;
+                }
 
+                var student = (Student)dgvStudents.CurrentRow.DataBoundItem;
+                var result = MessageBox.Show(
+                    $"Are you sure you want to delete student {student.Name} {student.Surname}?",
+                    "Confirm Delete",
+                    MessageBoxButtons.YesNo,
+                    MessageBoxIcon.Question
+                );
+
+                if (result == DialogResult.Yes)
+                {
+                    _studentManager.DeleteStudent(student.StudentId);
+                    LoadStudents();
+                    ClearInputs();
+                    MessageBox.Show("Student deleted successfully!", "Success", MessageBoxButtons.OK, MessageBoxIcon.Information);
+                }
+            }
+            catch (Exception ex)
+            {
+                MessageBox.Show($"Error deleting student: {ex.Message}", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
+            }
         }
 
         private void ClearInputs()
