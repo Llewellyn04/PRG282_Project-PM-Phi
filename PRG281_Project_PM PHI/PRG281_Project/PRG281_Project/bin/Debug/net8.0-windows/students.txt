@@ -3,3 +3,4 @@
 5, Eve, Williams,23, Diploma for Deaf Students
 1, Alice, Johnson,20,Bachelor of Information Technology
 6, Bob, Smith,22,Bachelor of Information Technology
+10,Koos,Fourie,20,Bachelor of Computing

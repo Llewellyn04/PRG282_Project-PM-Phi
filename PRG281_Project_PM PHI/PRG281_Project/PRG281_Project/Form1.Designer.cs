@@ -30,6 +30,7 @@
             btnAdd = new Button();
             btnUpdate = new Button();
             btnDelete = new Button();
+            btnClear = new System.Windows.Forms.Button();
             grpSummary = new GroupBox();
             lblTotalStudents = new Label();
             lblAverageAge = new Label();
@@ -64,6 +65,7 @@
             grpStudentInfo.Controls.Add(btnAdd);
             grpStudentInfo.Controls.Add(btnUpdate);
             grpStudentInfo.Controls.Add(btnDelete);
+            grpStudentInfo.Controls.Add(btnClear);
             grpStudentInfo.Location = new Point(12, 169);
             grpStudentInfo.Name = "grpStudentInfo";
             grpStudentInfo.Size = new Size(394, 251);
@@ -155,9 +157,9 @@
             btnAdd.FlatStyle = FlatStyle.Flat;
             btnAdd.Font = new Font("Segoe UI", 9.75F, FontStyle.Bold);
             btnAdd.ForeColor = Color.White;
-            btnAdd.Location = new Point(66, 194);
+            btnAdd.Location = new Point(15, 180);
             btnAdd.Name = "btnAdd";
-            btnAdd.Size = new Size(80, 35);
+            btnAdd.Size = new Size(85, 35);
             btnAdd.TabIndex = 10;
             btnAdd.Text = "Add";
             btnAdd.UseVisualStyleBackColor = false;
@@ -171,9 +173,9 @@
             btnUpdate.FlatStyle = FlatStyle.Flat;
             btnUpdate.Font = new Font("Segoe UI", 9.75F, FontStyle.Bold);
             btnUpdate.ForeColor = Color.White;
-            btnUpdate.Location = new Point(156, 194);
+            btnUpdate.Location = new Point(105, 180);
             btnUpdate.Name = "btnUpdate";
-            btnUpdate.Size = new Size(80, 35);
+            btnUpdate.Size = new Size(85, 35);
             btnUpdate.TabIndex = 11;
             btnUpdate.Text = "Update";
             btnUpdate.UseVisualStyleBackColor = false;
@@ -187,13 +189,29 @@
             btnDelete.FlatStyle = FlatStyle.Flat;
             btnDelete.Font = new Font("Segoe UI", 9.75F, FontStyle.Bold);
             btnDelete.ForeColor = Color.White;
-            btnDelete.Location = new Point(246, 194);
+            btnDelete.Location = new Point(195, 180);
             btnDelete.Name = "btnDelete";
-            btnDelete.Size = new Size(80, 35);
+            btnDelete.Size = new Size(85, 35);
             btnDelete.TabIndex = 12;
             btnDelete.Text = "Delete";
             btnDelete.UseVisualStyleBackColor = false;
             btnDelete.Click += btnDelete_Click;
+            // 
+            // btnClear
+            // 
+            btnClear.BackColor = Color.FromArgb(149, 165, 166);
+            btnClear.Cursor = Cursors.Hand;
+            btnClear.FlatAppearance.BorderSize = 0;
+            btnClear.FlatStyle = FlatStyle.Flat;
+            btnClear.Font = new Font("Segoe UI", 9.75F, FontStyle.Bold);
+            btnClear.ForeColor = Color.White;
+            btnClear.Location = new Point(285, 180);
+            btnClear.Name = "btnClear";
+            btnClear.Size = new Size(85, 35);
+            btnClear.TabIndex = 13;
+            btnClear.Text = "Clear";
+            btnClear.UseVisualStyleBackColor = false;
+            btnClear.Click += btnClear_Click;
             // 
             // grpSummary
             // 
@@ -347,6 +365,7 @@
         private Button btnAdd;
         private Button btnUpdate;
         private Button btnDelete;
+        private Button btnClear;
         private GroupBox grpSummary;
         private Label lblTotalStudents;
         private Label lblAverageAge;

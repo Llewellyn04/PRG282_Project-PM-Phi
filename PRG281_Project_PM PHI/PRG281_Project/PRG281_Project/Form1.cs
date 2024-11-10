@@ -24,6 +24,7 @@ namespace PRG281_Project
             SetupButtonHoverEffects(btnAdd, Color.FromArgb(46, 204, 113), Color.FromArgb(39, 174, 96));
             SetupButtonHoverEffects(btnUpdate, Color.FromArgb(243, 156, 18), Color.FromArgb(211, 84, 0));
             SetupButtonHoverEffects(btnDelete, Color.FromArgb(231, 76, 60), Color.FromArgb(192, 57, 43));
+            SetupButtonHoverEffects(btnClear, Color.FromArgb(149, 165, 166), Color.FromArgb(127, 140, 141));
             SetupButtonHoverEffects(btnApplyFilter, Color.FromArgb(52, 152, 219), Color.FromArgb(41, 128, 185));
         }
 
@@ -291,6 +292,11 @@ namespace PRG281_Project
         private void groupBox1_Enter(object sender, EventArgs e)
         {
 
+        }
+
+        private void btnClear_Click(object sender, EventArgs e)
+        {
+            ClearInputs();
         }
     }
 }
