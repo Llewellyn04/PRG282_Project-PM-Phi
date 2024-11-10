@@ -32,3 +32,21 @@ E:\Desktop E\PRG281_Project_PM PHI\PRG281_Project\PRG281_Project\obj\Debug\net8.
 E:\Desktop E\PRG281_Project_PM PHI\PRG281_Project\PRG281_Project\obj\Debug\net8.0-windows\PRG281_Project.pdb
 E:\Desktop E\PRG281_Project_PM PHI\PRG281_Project\PRG281_Project\obj\Debug\net8.0-windows\PRG281_Project.genruntimeconfig.cache
 E:\Desktop E\PRG281_Project_PM PHI\PRG281_Project\PRG281_Project\obj\Debug\net8.0-windows\ref\PRG281_Project.dll
+C:\Users\Llewe\OneDrive\Desktop\PRG282_Project-PM-Phi\PRG281_Project_PM PHI\PRG281_Project\PRG281_Project\bin\Debug\net8.0-windows\PRG281_Project.exe
+C:\Users\Llewe\OneDrive\Desktop\PRG282_Project-PM-Phi\PRG281_Project_PM PHI\PRG281_Project\PRG281_Project\bin\Debug\net8.0-windows\PRG281_Project.deps.json
+C:\Users\Llewe\OneDrive\Desktop\PRG282_Project-PM-Phi\PRG281_Project_PM PHI\PRG281_Project\PRG281_Project\bin\Debug\net8.0-windows\PRG281_Project.runtimeconfig.json
+C:\Users\Llewe\OneDrive\Desktop\PRG282_Project-PM-Phi\PRG281_Project_PM PHI\PRG281_Project\PRG281_Project\bin\Debug\net8.0-windows\PRG281_Project.dll
+C:\Users\Llewe\OneDrive\Desktop\PRG282_Project-PM-Phi\PRG281_Project_PM PHI\PRG281_Project\PRG281_Project\bin\Debug\net8.0-windows\PRG281_Project.pdb
+C:\Users\Llewe\OneDrive\Desktop\PRG282_Project-PM-Phi\PRG281_Project_PM PHI\PRG281_Project\PRG281_Project\obj\Debug\net8.0-windows\PRG281_Project.Form1.resources
+C:\Users\Llewe\OneDrive\Desktop\PRG282_Project-PM-Phi\PRG281_Project_PM PHI\PRG281_Project\PRG281_Project\obj\Debug\net8.0-windows\PRG281_Project.Properties.Resources.resources
+C:\Users\Llewe\OneDrive\Desktop\PRG282_Project-PM-Phi\PRG281_Project_PM PHI\PRG281_Project\PRG281_Project\obj\Debug\net8.0-windows\PRG281_Project.csproj.GenerateResource.cache
+C:\Users\Llewe\OneDrive\Desktop\PRG282_Project-PM-Phi\PRG281_Project_PM PHI\PRG281_Project\PRG281_Project\obj\Debug\net8.0-windows\PRG281_Project.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Llewe\OneDrive\Desktop\PRG282_Project-PM-Phi\PRG281_Project_PM PHI\PRG281_Project\PRG281_Project\obj\Debug\net8.0-windows\PRG281_Project.AssemblyInfoInputs.cache
+C:\Users\Llewe\OneDrive\Desktop\PRG282_Project-PM-Phi\PRG281_Project_PM PHI\PRG281_Project\PRG281_Project\obj\Debug\net8.0-windows\PRG281_Project.AssemblyInfo.cs
+C:\Users\Llewe\OneDrive\Desktop\PRG282_Project-PM-Phi\PRG281_Project_PM PHI\PRG281_Project\PRG281_Project\obj\Debug\net8.0-windows\PRG281_Project.csproj.CoreCompileInputs.cache
+C:\Users\Llewe\OneDrive\Desktop\PRG282_Project-PM-Phi\PRG281_Project_PM PHI\PRG281_Project\PRG281_Project\obj\Debug\net8.0-windows\PRG281_Project.sourcelink.json
+C:\Users\Llewe\OneDrive\Desktop\PRG282_Project-PM-Phi\PRG281_Project_PM PHI\PRG281_Project\PRG281_Project\obj\Debug\net8.0-windows\PRG281_Project.dll
+C:\Users\Llewe\OneDrive\Desktop\PRG282_Project-PM-Phi\PRG281_Project_PM PHI\PRG281_Project\PRG281_Project\obj\Debug\net8.0-windows\refint\PRG281_Project.dll
+C:\Users\Llewe\OneDrive\Desktop\PRG282_Project-PM-Phi\PRG281_Project_PM PHI\PRG281_Project\PRG281_Project\obj\Debug\net8.0-windows\PRG281_Project.pdb
+C:\Users\Llewe\OneDrive\Desktop\PRG282_Project-PM-Phi\PRG281_Project_PM PHI\PRG281_Project\PRG281_Project\obj\Debug\net8.0-windows\PRG281_Project.genruntimeconfig.cache
+C:\Users\Llewe\OneDrive\Desktop\PRG282_Project-PM-Phi\PRG281_Project_PM PHI\PRG281_Project\PRG281_Project\obj\Debug\net8.0-windows\ref\PRG281_Project.dll
