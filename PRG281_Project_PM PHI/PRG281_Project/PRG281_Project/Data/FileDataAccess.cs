@@ -38,7 +38,13 @@ namespace PRG281_Project.Data
 
         public void UpdateStudent(Student student)
         {
-
+            var students = GetAllStudents();
+            var index = students.FindIndex(s => s.StudentId == student.StudentId);
+            if (index != -1)
+            {
+                students[index] = student;
+                SaveAllStudents(students);
+            }
         }
 
         public void DeleteStudent(int studentId)

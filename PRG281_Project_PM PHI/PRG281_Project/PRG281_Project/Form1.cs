@@ -109,9 +109,43 @@ namespace PRG281_Project
             }
         }
 
-        private void btnUpdate_Click(object sender, EventArgs e)
+       private void btnUpdate_Click(object sender, EventArgs e)
         {
-           
+            try
+            {
+                if (dgvStudents.CurrentRow == null)
+                {
+                    MessageBox.Show("Please select a student to update.", "Warning", MessageBoxButtons.OK, MessageBoxIcon.Warning);
+                    return;
+                }
+
+                if (string.IsNullOrWhiteSpace(txtStudentId.Text) ||
+                    string.IsNullOrWhiteSpace(txtName.Text) ||
+                    string.IsNullOrWhiteSpace(txtSurname.Text) ||
+                    string.IsNullOrWhiteSpace(txtAge.Text) ||
+                    string.IsNullOrWhiteSpace(cmbCourse.Text))
+                {
+                    MessageBox.Show("Please fill in all fields.", "Warning", MessageBoxButtons.OK, MessageBoxIcon.Warning);
+                    return;
+                }
+
+                var student = new Student(
+                    int.Parse(txtStudentId.Text),
+                    txtName.Text,
+                    txtSurname.Text,
+                    int.Parse(txtAge.Text),
+                    cmbCourse.Text
+                );
+
+                _studentManager.UpdateStudent(student);
+                LoadStudents();
+                ClearInputs();
+                MessageBox.Show("Student updated successfully!", "Success", MessageBoxButtons.OK, MessageBoxIcon.Information);
+            }
+            catch (Exception ex)
+            {
+                MessageBox.Show($"Error updating student: {ex.Message}", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
+            }
         }
 
         private void btnDelete_Click(object sender, EventArgs e)
